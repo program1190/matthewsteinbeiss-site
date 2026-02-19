@@ -4,35 +4,47 @@ const sections = [
   {
     href: "/music",
     title: "Music",
-    description: "Original compositions, recordings, and musical projects.",
+    description:
+      "Three projects spanning acoustic songwriting, electronic production, and ambient composition — each exploring the space between the organic and the synthesized.",
   },
   {
     href: "/art",
     title: "Art",
-    description: "Visual art, illustrations, and creative works.",
+    description:
+      "Visual work from @mindovermaffer — the boundary between natural forms and digital manipulation.",
   },
   {
     href: "/making",
     title: "Making",
-    description: "3D printing and woodworking projects.",
+    description:
+      "Objects built by hand — 3D printing, woodworking, and the philosophy of making physical things.",
   },
   {
     href: "/social",
     title: "Social",
-    description: "Connect and follow along on social media.",
+    description:
+      "Find the music on Spotify, Apple Music, and YouTube. Follow along on Instagram.",
   },
 ];
 
 export default function Home() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-24">
-      <div className="mb-16">
-        <h1 className="mb-4 text-4xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+      <div className="mb-16 max-w-2xl">
+        <h1 className="mb-6 font-serif text-5xl italic text-foreground">
           Matthew Steinbeiss
         </h1>
-        <p className="max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
-          Artist, musician, and maker. This is my corner of the internet for
-          art, music, 3D printing, and woodworking.
+        <p className="mb-4 text-lg text-foreground">
+          Artist, musician, and maker — working in the space between acoustic
+          and electronic, organic and fabricated, the thing you hold and the
+          sound you disappear into.
+        </p>
+        <p className="text-muted">
+          Playing music since age eleven. The same curiosity that drives the
+          songwriting — toward authentic connection, toward something genuinely
+          felt — shows up in the visual work, the 3D printing, the woodworking.
+          Making beautiful things that improve people&apos;s lives. That&apos;s
+          the whole project.
         </p>
       </div>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -40,14 +52,12 @@ export default function Home() {
           <Link
             key={href}
             href={href}
-            className="group rounded-xl border border-zinc-200 p-6 transition-colors hover:border-zinc-400 dark:border-zinc-800 dark:hover:border-zinc-600"
+            className="group rounded-xl border border-border bg-background p-6 transition-colors hover:border-accent"
           >
-            <h2 className="mb-2 text-lg font-medium text-zinc-900 dark:text-zinc-50">
+            <h2 className="mb-2 font-serif text-xl italic text-foreground transition-colors group-hover:text-accent">
               {title} →
             </h2>
-            <p className="text-sm text-zinc-500 dark:text-zinc-400">
-              {description}
-            </p>
+            <p className="text-sm text-muted">{description}</p>
           </Link>
         ))}
       </div>

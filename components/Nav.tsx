@@ -9,20 +9,20 @@ const links = [
 
 export default function Nav() {
   return (
-    <header className="border-b border-zinc-200 dark:border-zinc-800">
+    <header className="border-b border-border bg-background">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link
           href="/"
-          className="text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-50"
+          className="font-serif text-xl italic text-foreground"
         >
           Matthew Steinbeiss
         </Link>
-        <ul className="flex gap-6 text-sm text-zinc-600 dark:text-zinc-400">
+        <ul className="flex gap-6 text-sm text-muted">
           {links.map(({ href, label }) => (
             <li key={href}>
               <Link
                 href={href}
-                className="transition-colors hover:text-zinc-900 dark:hover:text-zinc-100"
+                className="transition-colors hover:text-accent"
               >
                 {label}
               </Link>
