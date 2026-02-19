@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About — Matthew Steinbeiss",
+  title: "About — Matthew Raya Steinbeiss",
   description:
-    "Matthew Steinbeiss is an artist, musician, and maker working in the space between the organic and the synthesized.",
+    "Matthew Raya Steinbeiss is an artist, musician, and maker working in the space between the organic and the synthesized.",
 };
 
 export default function AboutPage() {

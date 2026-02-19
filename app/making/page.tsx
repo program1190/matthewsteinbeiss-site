@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Making — Matthew Steinbeiss",
+  title: "Making — Matthew Raya Steinbeiss",
   description: "3D printing and woodworking projects.",
 };
 

@@ -40,7 +40,7 @@ export default function Home() {
     <div className="mx-auto max-w-5xl px-6 py-24">
       <div className="mb-16 max-w-2xl">
         <h1 className="mb-6 font-serif text-5xl italic text-foreground">
-          Matthew Steinbeiss
+          Matthew Raya Steinbeiss
         </h1>
         <p className="mb-4 text-lg text-foreground">
           Artist, musician, and maker — working in the space between acoustic
@@ -59,7 +59,7 @@ export default function Home() {
         <Link href="/art">
           <Image
             src="/art/Rift Acrylic.jpg"
-            alt="Rift — Acrylic by Matthew Steinbeiss"
+            alt="Rift — Acrylic by Matthew Raya Steinbeiss"
             width={1200}
             height={800}
             className="block h-auto w-full transition-opacity hover:opacity-95"

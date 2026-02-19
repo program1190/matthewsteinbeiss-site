@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Music — Matthew Steinbeiss",
+  title: "Music — Matthew Raya Steinbeiss",
   description:
     "Three projects — acoustic songwriting as The Slow Sink, electronic production as Matthew Ashed, and ambient composition as Constraints.",
 };

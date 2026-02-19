@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ArtGallery, { type Artwork } from "@/components/ArtGallery";
 
 export const metadata: Metadata = {
-  title: "Art — Matthew Steinbeiss",
+  title: "Art — Matthew Raya Steinbeiss",
   description:
-    "Visual art by Matthew Steinbeiss — acrylic painting, pen and ink, photography, and more.",
+    "Visual art by Matthew Raya Steinbeiss — acrylic painting, pen and ink, photography, and more.",
 };
 
 const artworks: Artwork[] = [

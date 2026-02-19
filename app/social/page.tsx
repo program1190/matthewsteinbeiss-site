@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Social — Matthew Steinbeiss",
+  title: "Social — Matthew Raya Steinbeiss",
   description:
-    "Find Matthew Steinbeiss on Spotify, Instagram, Apple Music, and more.",
+    "Find Matthew Raya Steinbeiss on Spotify, Instagram, Apple Music, and more.",
 };
 
 const platforms = [

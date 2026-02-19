@@ -20,9 +20,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Matthew Steinbeiss | Botanical Illustrator & Artist",
+  title: "Matthew Raya Steinbeiss | Botanical Illustrator & Artist",
   description:
-    "Portfolio of Matthew Steinbeiss, a Denver-based artist specializing in botanical illustration, 3D printing, and creative projects.",
+    "Portfolio of Matthew Raya Steinbeiss, a Denver-based artist specializing in botanical illustration, 3D printing, and creative projects.",
 };
 
 export default function RootLayout({

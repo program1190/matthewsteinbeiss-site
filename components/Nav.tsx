@@ -17,7 +17,7 @@ export default function Nav() {
           href="/"
           className="font-serif text-xl italic text-foreground"
         >
-          Matthew Steinbeiss
+          Matthew Raya Steinbeiss
         </Link>
         <ul className="flex gap-6 text-sm text-muted">
           {links.map(({ href, label }) => (

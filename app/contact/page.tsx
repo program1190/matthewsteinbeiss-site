@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact — Matthew Steinbeiss",
-  description: "Get in touch with Matthew Steinbeiss.",
+  title: "Contact — Matthew Raya Steinbeiss",
+  description: "Get in touch with Matthew Raya Steinbeiss.",
 };
 
 export default function ContactPage() {
