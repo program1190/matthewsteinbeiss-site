@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const sections = [
   {
@@ -47,6 +48,26 @@ export default function Home() {
           the whole project.
         </p>
       </div>
+      <div className="mb-16 overflow-hidden rounded-xl">
+        <Link href="/art">
+          <Image
+            src="/art/Rift Acrylic.jpg"
+            alt="Rift — Acrylic by Matthew Steinbeiss"
+            width={1200}
+            height={800}
+            className="block h-auto w-full transition-opacity hover:opacity-95"
+            sizes="(max-width: 1024px) 100vw, 1000px"
+            priority
+          />
+        </Link>
+        <p className="mt-3 text-sm italic text-muted">
+          Rift — Acrylic.{" "}
+          <Link href="/art" className="text-accent underline-offset-4 hover:underline">
+            View all work →
+          </Link>
+        </p>
+      </div>
+
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {sections.map(({ href, title, description }) => (
           <Link

@@ -5,6 +5,8 @@ const links = [
   { href: "/art", label: "Art" },
   { href: "/making", label: "Making" },
   { href: "/social", label: "Social" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Nav() {
