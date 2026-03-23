@@ -1,0 +1,7 @@
+# robots.txt for matthewsteinbeiss.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://matthewsteinbeiss.com/sitemap.xml
